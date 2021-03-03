@@ -1,0 +1,25 @@
+@import "./reset.scss";
+@import "./config/variables.scss";
+@import "./blocs/identity.scss";
+@import "./blocs/appearance.scss";
+@import "./blocs/attack.scss";
+@import "./blocs/types.scss";
+@import "./blocs/pokedex.scss";
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  height: 100vh;
+  border: 15px yellow solid;
+  background-image: linear-gradient(greenyellow, green);
+  background-color: yellowgreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.carte {
+  height: 100%;
+}
